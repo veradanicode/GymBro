@@ -76,8 +76,14 @@ header .navbar{
 
 .navbar .nav-menu .nav-items a{
     padding: 10px 18px;
-    background: var(--secondary-color);
+    font-size: var(--font-size-m);
     border-radius: var(--border-radius-m);
     color:var(--white-color);
+    transition: 0.3s ease;
+}
+
+.navbar .nav-menu .nav-items a:hover{
+    color: var(--primary-color);
+    background: var(--secondary-color);
 
 }
