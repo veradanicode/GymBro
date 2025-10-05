@@ -11,12 +11,11 @@
 :root{
     /*Colours*/
     --white-color:#fff;
-    --dark-color:#252525;
+    --dark-color:#0d0d0d;
     --primary-color:#3b141c;
-    --secondary-color:#f3961c;
+    --secondary-color:#f39616;
     --light-pink-color:#faf4f5;
     --medium-gray-color:#ccc;
-
     /*Font size*/
     --font-size-s:0.9rem;
     --font-size-n:1rem;
@@ -53,9 +52,19 @@ button{
 }
 img{
     width: 100%;
+    height: 100%; 
+}
+
+.section-content{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: var(--site-max-width);
 }
 /*Nav Styling*/
 header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
     background: var(--primary-color);
 }
 
@@ -72,6 +81,8 @@ header .navbar{
 }
 .logo-text {
     color: var(--white-color);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
 }
 
 .navbar .nav-menu .nav-items a{
@@ -86,4 +97,22 @@ header .navbar{
     color: var(--primary-color);
     background: var(--secondary-color);
 
+}
+
+.hero-section{
+    min-height:100vh;
+    background: var(--primary-color);
+}
+.hero-section .section-content{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--white-color);
+    justify-content: space-between;
+}
+
+.hero-section .hero-details .title{
+    font-size: var(--font-size-xxl);
+    color: var(--secondary-color);
+    font-family: "Miniver",sans-serif;
 }
