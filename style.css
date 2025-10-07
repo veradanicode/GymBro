@@ -134,3 +134,11 @@ header .navbar{
     max-width: 500px;
     margin-right: 30px;
 }
+
+.hero-section .hero-details .button{
+    padding: 10px 26px;
+    color: var(--primary-color);
+    border-radius: var(--border-radius-m);
+    background: var(--secondary-color);
+    font-weight: var(--font-size-m);
+}
