@@ -129,3 +129,8 @@ header .navbar{
     max-width: 70%;
     font-size: var(--font-size-m);
 }
+
+.hero-section .hero-image-wrapper{
+    max-width: 500px;
+    margin-right: 30px;
+}
