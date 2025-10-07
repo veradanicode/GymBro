@@ -130,6 +130,10 @@ header .navbar{
     font-size: var(--font-size-m);
 }
 
+.hero-section .hero-details .buttons{
+    display: flex;
+    gap: 23px;
+}
 .hero-section .hero-image-wrapper{
     max-width: 500px;
     margin-right: 30px;
@@ -141,4 +145,11 @@ header .navbar{
     border-radius: var(--border-radius-m);
     background: var(--secondary-color);
     font-weight: var(--font-size-m);
+}
+
+
+.hero-section .hero-details .button:hover{
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
 }
