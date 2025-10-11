@@ -206,7 +206,7 @@ header .navbar{
 .about-section .about-image-wrapper .about-image{
     width: 400px ;
     height: 400px;
-     object-fit: cover;
+    object-fit: cover;
     border-radius: var(--border-radius-circle);
 }
 .about-section .about-details .section-title{
