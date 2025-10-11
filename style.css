@@ -61,6 +61,24 @@ img{
     padding: 0 20px;
     max-width: var(--site-max-width);
 }
+
+.section-title{
+    text-align: center;
+    padding: 60px 0 100px;
+    text-transform: uppercase;
+    font-size: var(--font-size-xl);
+}
+
+
+.section-title::after{
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: var(--border-radius-s);
+    background: var(--secondary-color);
+}
 /*Nav Styling*/
 header{
     position: fixed;
@@ -162,7 +180,7 @@ header .navbar{
 }
 
 .hero-section .hero-details .contact-us:hover{
-       padding: 10px 26px;
+     padding: 10px 26px;
     color: var(--primary-color);
     border: 2px solid transparent;
     border-radius: var(--border-radius-m);
@@ -171,6 +189,38 @@ header .navbar{
     transition: 0.3s ease;
 
 }
+/*About Section Styling*/
+.about-section{
+    padding: 100px;
+    background: var(--light-pink-color);
+}
+
+.about-section .section-content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+
+.about-section .about-image-wrapper .about-image{
+    width: 400px ;
+    height: 400px;
+     object-fit: cover;
+    border-radius: var(--border-radius-circle);
+}
+.about-section .about-details .section-title{
+    padding: 0;
+}
+
+.about-section .about-details .text{
+    line-height: 30px;
+    margin: 50px 0 30px;
+    text-align: center;
+    font-size: var(--border-radius-m);
+}
+
+
 /*Responsive media query for max width of 900px  */
 @media screen and (max-width:900px){
     :root{
