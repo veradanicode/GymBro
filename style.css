@@ -14,7 +14,7 @@
     --dark-color:#0d0d0d;
     --basic-color:#130609;
     --primary-color:#3b141c;
-    --secondary-color:#f39616;
+    --secondary-color:#f37a16;
     --light-pink-color:#faf4f5;
     --medium-gray-color:#ccc;
     /*Font size*/
@@ -231,5 +231,27 @@ header .navbar{
         display: block;
         margin-top: 20px;
         font-size: var(--font-size-l);
+    }
+
+    /*hero section*/
+    .hero-section .section-content{
+        gap: 50px;
+        text-align: center;
+        padding: 30px 20px 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+    }
+    .hero-section .hero-details :is(.subtitle,.description){
+        max-width: 100%;
+    }
+
+    .hero-section .hero-details .buttons{
+        justify-content: center;
+    }
+
+    .hero-section .hero-image-wrapper{
+        max-width: 300px;
+        margin-right: 0;
     }
 }
