@@ -171,7 +171,7 @@ header .navbar{
     transition: 0.3s ease;
 
 }
-/* */
+/*Responsive media query for max width of 900px  */
 @media screen and (max-width:900px){
     :root{
     --font-size-m:1rem;
@@ -185,6 +185,9 @@ header .navbar{
         right: 30px;
         top: 30px;
     }
+    .navbar :where(#menu-open-button){
+        color: var(--white-color);
+    }
       .navbar :where(#menu-close-button,#menu-open-button){
         display: block;
         font-size: var(--font-size-l);
@@ -193,9 +196,9 @@ header .navbar{
         display: block;
         position: fixed;
         top: 0;
-        left: -300px;
+        left: -500px;
         width: 45%;
-        height: 300px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
