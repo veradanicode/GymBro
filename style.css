@@ -225,6 +225,11 @@ header .navbar{
     justify-content: center;
 }
 
+.about-section .social-link-list .social-link{
+    color: var(--primary-color);
+    font-size: var(--font-size-l);
+}
+
 
 /*Responsive media query for max width of 900px  */
 @media screen and (max-width:900px){
