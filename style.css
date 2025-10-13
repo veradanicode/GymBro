@@ -219,6 +219,11 @@ header .navbar{
     text-align: center;
     font-size: var(--border-radius-m);
 }
+.about-section .social-link-list{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
 
 
 /*Responsive media query for max width of 900px  */
