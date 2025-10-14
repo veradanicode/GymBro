@@ -6,6 +6,8 @@
     <title>💪🏼GymBro</title>
     <!--  Linking fontawesome for icons  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--  Linking Swiper CSS  -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -80,46 +82,55 @@
          </section>
          <!--Testimonials Section-->
          <section class="testimonials-section">
-            <h2 class="section-title">Testiomials</h2>
+            <h2 class="section-title">Testimonials</h2>
             <div class="section-content">
-                <div class="slider-wrapper">
-                    <ul class="testimonials-list">
-                        <li class="testimonial">
-                            <img src="images/user1.jpg" alt="User">
-                            <h3 class="name">Tiana Mitbush</h3>
-                            <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
-                        </li>
-                         <li class="testimonial">
-                            <img src="images/user2.jpg" alt="User">
-                            <h3 class="name">Dylan Ross</h3>
-                            <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
-                        </li>
-                         <li class="testimonial">
-                            <img src="images/user3.jpg" alt="User">
-                            <h3 class="name">Freddy Rodriguez</h3>
-                            <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
-                        </li>
-                         <li class="testimonial">
-                            <img src="images/user4.jpg" alt="User">
-                            <h3 class="name">Stacey Miller</h3>
-                            <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
-                        </li>
-                         <li class="testimonial">
-                            <img src="images/user5.jpg" alt="User">
-                            <h3 class="name">Drew fox</h3>
-                            <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
-                        </li>
-                         <li class="testimonial">
-                            <img src="images/user6.jpg" alt="User">
-                            <h3 class="name">Andrea Gomez</h3>
-                            <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
-                        </li>
-                        
-                    </ul>
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper ">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Tiana Mitbush</h3>
+                                <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Dylan Ross</h3>
+                                <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Freddy Rodriguez</h3>
+                                <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Stacey Miller</h3>
+                                <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Drew fox</h3>
+                                <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user6.jpg" alt="User" class="user-image">
+                                <h3 class="name">Andrea Gomez</h3>
+                                <i class="feedback">An excellent place to build body & mind, well equipped with all the resources and trained coaches.</i>
+                            </li>
+                            
+                        </ul>
+                         <div class="swiper-pagination"></div>
+
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                   </div>
                 </div>
             </div>
          </section>
     </main>
+    <!--Linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+   <!--Linking custom script-->
     <script src="script.js"></script>
 </body>
 </html>
