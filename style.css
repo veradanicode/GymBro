@@ -131,6 +131,16 @@ header .navbar{
     justify-content: space-between;
 }
 
+.hero-section .section-content h1{
+    padding: 20px;
+    font-size: 160px;
+    color: white;
+    background-size: cover;
+    background-image: url(./images/asset4.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 .hero-section .hero-details .title{
     font-size: var(--font-size-xxl);
     color: var(--secondary-color);
